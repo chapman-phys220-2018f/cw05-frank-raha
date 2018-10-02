@@ -1,0 +1,4 @@
+{"type":"cell","id":"3faf95","pos":1,"input":""}
+{"type":"cell","id":"a38bcb","pos":0,"input":"## Critique of Raha's sequences.py\n\nCode looks very neat and organized although variables are not specifically labeled. Code is documented which brings context to the purpose of the code. Code is easy to follow if I read through it line by line to figure out what is happening. The code works and passed Travis. Code looks very similar to mine so I do not have any recommendations towards improving it other than naming the variables.\n\n#### Rating\n     95/100","cell_type":"markdown"}
+{"type":"file","last_load":1538500499494}
+{"type":"settings","backend_state":"running","trust":true,"kernel":"anaconda5","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":74989568}}
