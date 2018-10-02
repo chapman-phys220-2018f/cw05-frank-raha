@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+####
+# Frank and Raha
+# Elementary module for CW 5
+# PHYS 220
+# 10/1/18
+####
 
 import elementary
 from scipy import constants
@@ -34,14 +40,14 @@ def test_move():
     p.move(0.1)
     assert all(math.isclose(*pos) for pos in zip(p.position, (1.0 + 0.1*1.0/2.0, 2.0 + 0.1*2.0/2.0, 3.0 + 0.1*3.0/2.0)) )
 
-def test_electron()
+def test_electron():
     """Verify the electron implementation.
     """
     e = elementary.Electron(1.0, 2.0, 3.0)
     assert math.isclose(e.mass, constants.m_e)
     assert math.isclose(e.charge, -constants.e)
 
-def test_proton()
+def test_proton():
     """Verify the positron implementation.
     """
     p = elementary.Proton(1.0, 2.0, 3.0)
